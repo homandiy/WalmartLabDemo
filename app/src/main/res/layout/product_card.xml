@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".UI.ProductListFragment"
+        android:id="@+id/cardCL">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    >
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:id="@+id/oneCardCL"
+                android:clickable="true"
+                android:focusable="true">
+
+            <ImageView
+                    android:src="@drawable/tv_sample"
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/productImageIV"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:contentDescription="@string/sample_tv"/>
+            <TextView
+                    android:text="@string/my_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/productNameTV"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toBottomOf="@+id/productImageIV"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

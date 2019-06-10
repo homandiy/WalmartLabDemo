@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Walmart Lab Demo</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="baseUrl">https://mobile-tha-server.firebaseapp.com/</string>
+    <string name="my_tv">My TV</string>
+    <string name="sample_tv">Sample TV</string>
+    <string name="user_reviewed_2">User Reviewed: 2</string>
+    <string name="user_rating_5_0">User Rating: 5.0</string>
+    <string name="tv_the_best">TV, The best</string>
+    <string name="_100">$ 100.</string>
+    <string name="short_description">Short Description</string>
+    <string name="in_stock">In stock</string>
+    <string name="longdescription">longDescription</string>
+    <string name="next">Next</string>
+    <string name="pre">Pre</string>
+    <string name="test_lab">Test Lab</string>
+    <string name="page_1">Page - 1</string>
+    <string name="walmart_title">walmart title</string>
+</resources>
